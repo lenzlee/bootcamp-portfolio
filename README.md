@@ -1,4 +1,4 @@
-# bootcamp-hw-02
+# bootcamp-portfolio
 Bootcamp Homework 2: Portfolio (Advanced CSS)
 
 ## My Portfolio

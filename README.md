@@ -1,5 +1,4 @@
-# bootcamp-portfolio
-Bootcamp Homework 2: Portfolio (Advanced CSS)
+# Bootcamp Homework 2: Portfolio (Advanced CSS)
 
 ## My Portfolio
 
@@ -15,12 +14,33 @@ In the **About Me section**, I have my description display on the left and my pr
 
 The **Technical Toolbox section** lists all of my current technical knowledge and skills.
 
-The **My Projects section** contains placeholder contents for now. I will replace this section with real examples as we go further along in this course. The first image will display a modal pop up when clicked. This is how I plan to set up all items in this section. I used inline JS for this section for now. I am still learning JavaScript, so I am hoping my code will improve over time. 
+The **My Projects section** contains a listing of projects we worked on for this course. when you click on each project, a modal window will open with project details and a view website link which will then take you to the deployed application. 
 
-The **Contact Me section** simply lists my e-mail address and a placeholder info for phone number. I am planning on adding an embedded contact form in this section in the future.
+The **Contact Me section** simply lists my e-mail address and a placeholder info for phone number. 
 
 Lastly, the **footer section** just has a standard copyright and disclaimer placeholder for now.
 
-## Resources Used
+## Resources/References:
 
-In this project, I used our class lessons for reference. I also used W3 schools for the Modal function for the My Projects section. For media queries, I referenced CSS Tricks. Lastly, I borrowed the Chicago Bean Sculpture photo from Google Images.
+I mostly referred to our HTML, CSS, and Javascript lessons/activities for this assignment.
+
+**Bootstrap 5.0:** (https://getbootstrap.com/docs/5.0/)
+
+**JQuery package:** (https://code.jquery.com/jquery-3.6.0.min.js)
+
+I also used W3 schools for the Modal function for the My Projects section. 
+
+For media queries, I referenced CSS Tricks. 
+
+Lastly, I borrowed the Chicago Bean Sculpture photo from Google Images.
+
+## URLs Submitted:
+
+* My Repo URL: https://github.com/lenzlee/bootcamp-portfolio 
+
+* Application URL: https://lenzlee.github.io/bootcamp-portfolio/ 
+
+
+## My Portfolio Page Screenshot:
+
+![alt text](./assets/images/screenshot-main.png)

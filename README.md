@@ -1,4 +1,6 @@
-# Bootcamp Homework 2: Portfolio (Advanced CSS)
+# Professional Portfolio
+
+# Module 2: Advanced CSS Challenge
 
 ## My Portfolio
 

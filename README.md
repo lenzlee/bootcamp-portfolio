@@ -38,9 +38,9 @@ Lastly, I borrowed the Chicago Bean Sculpture photo from Google Images.
 
 ## URLs Submitted:
 
-* My Repo URL: https://github.com/lenzlee/bootcamp-portfolio 
+* My Repo URL: https://github.com/lenzlee/portfolio 
 
-* Application URL: https://lenzlee.github.io/bootcamp-portfolio/ 
+* Application URL: https://lenzlee.github.io/portfolio/
 
 
 ## My Portfolio Page Screenshot:

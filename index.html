@@ -5,13 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio: Lenzlee Wheeler</title>
-    
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
@@ -59,7 +55,7 @@
 <p>I specifically focus on supporting UMC clients through the continued development of technology resources. I work towards making sure Loyola's Site Content Coordinators have the tools and resources needed to achieve their marketing goals as we advance the use of TerminalFour Site Manager, WordPress, and the many other tools that we use in UMC. I use my technology and marketing acumen to use technology to achieve marketing goals.</p>
 
 <p>
-I live in downtown Chicago and I just love my city! I spend my free time and weekends with my family especially with my nieces and nephews. I love Karaoke and I love watching professional golf. Jordan Spieth and Viktor Hovland are my favorites on the PGA tour. I also love to travel especially to Europe. I fell in love with Italy when I first traveled there and I have been back there a few times since. Rome is my favorite!</p>
+I live in the Chicagoland area and I love my city! I spend my free time and weekends with my family especially with my nieces and nephews. I love Karaoke and I love watching professional golf. Jordan Spieth and Viktor Hovland are my favorites on the PGA tour. I also love to travel especially to Europe. I fell in love with Italy when I first traveled there and I have been back there a few times since. Rome is my favorite!</p>
             
 </section>
 
@@ -82,7 +78,7 @@ I live in downtown Chicago and I just love my city! I spend my free time and wee
 <p>Vertical Response, MailChimp, EMMA, Constant Contact, Poppulo, IBM Watson, Salesforce</p>
 
 <h3>Other Softwares & Web Tools:</h3>
-<p>Git, GitHub, Bootstrap, Atom, GoDaddy, SiteImprove, Formstack, Basecamp, Google Webmaster Tools, Google Analytics, Google Tag Manager, Google Data Studio, Search Engine Optimization (SEO), Microsoft Word, Microsoft Excel, Microsoft Powerpoint, Microsoft Outlook, Microsoft Publisher</p>
+<p>Git, GitHub, Heroku, Bootstrap, Atom, GoDaddy, SiteImprove, Formstack, Basecamp, Google Webmaster Tools, Google Analytics, Google Tag Manager, Google Data Studio, Search Engine Optimization (SEO), Microsoft Word, Microsoft Excel, Microsoft Powerpoint, Microsoft Outlook, Microsoft Publisher</p>
 
 </section>
 
@@ -92,15 +88,79 @@ I live in downtown Chicago and I just love my city! I spend my free time and wee
 <section id="projects">
 <h2>My Projects</h2>
 
-<h4>Project 1: Marvel Characters, Inc.</h4>
-<a href="https://marvel-characters-inc.github.io/project1/" target="_blank"><img id="projectItem" src="./assets/images/screenshot-project1-p1.jpg" title="View Project 1" alt="Project 1 Thumbnail Image" class="zoom"></a>
-
-
 <!-- Project Modal -->
 
-</div>
+<div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <h4><a href="https://marvel-characters-inc.github.io/project1/" target="_blank" title="Marvel Characters, Inc.">Marvel Characters, Inc.</a></h4>
+<img id="projectItem" src="./assets/images/screenshot-project1-p1.jpg" title="View Project 1: Marvel Characters App" alt="Project 1 Thumbnail Image" class="zoom">
+
+<br>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project1Modal">About The Marvel Characters App</button>
+
+      </div>
+      <div class="col">
+        <h4><a href="https://compoundle-0dc961311800.herokuapp.com/" target="_blank" title="Compoundle">Compoundle</a></h4>
+<img id="projectItem" src="https://raw.githubusercontent.com/fanny-travis-lenzlee-thomas/Compoundle/main/image-1.png" title="View Project 2: Compoundle App" alt="Project 2 Thumbnail Image" class="zoom">
+
+<br>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project2Modal">About The Compundle App</button>
+
+      </div>
+      <!-- <div class="col">
+        Column
+      </div> -->
+    </div>
+  </div>
+
+  <!-- Project Modals -->
+
+  <!-- Modal for the Marvel App -->
+  <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="project1ModalLabel">Marvel Characters</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         This is a SuperHero web app where you can view and learn more about Marvel characters by theme.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="window.open('https://github.com/Marvel-Characters-Inc/project1');">GitHub Repo</button>
+          <button type="button" class="btn btn-primary" onclick="window.open('https://marvel-characters-inc.github.io/project1/');">Launch App</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Modal for the Compundle App -->
+    <div class="modal fade" id="project2Modal" tabindex="-1" aria-labelledby="project2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="project2ModalLabel">Compoundle</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            Compoundle is an engaging word game built with JavaScript, Node.js, Express, and MySQL. Challenge yourself to create chains of compound words and phrases, and track your scores by creating user profiles.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="window.open('https://github.com/fanny-travis-lenzlee-thomas/Compoundle');">GitHub Repo</button>
+              <button type="button" class="btn btn-primary" onclick="window.open('https://compoundle-0dc961311800.herokuapp.com/');">Launch App</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
 </section>
+
+
+
 
 <hr>
  
@@ -109,8 +169,8 @@ I live in downtown Chicago and I just love my city! I spend my free time and wee
 <h2>Contact Me</h2>
         
 <p>Lenzlee Wheeler<br>
-    <strong>E-mail:</strong> <a href="mailto:lenzlee@gmail.com">lenzlee@gmail.com</a><br>
-    <strong>Phone:</strong> 312.000.0000</p>
+    <strong>E-mail:</strong> <a href="mailto:lenzlee@gmail.com" title="lenzlee@gmail.com">lenzlee@gmail.com</a><br>
+    <strong>GitHub:</strong> <a href="https://github.com/lenzlee/" title="github.com/lenzlee" target="_blank">https://github.com/lenzlee/</a></p>
 
 </section>
 </main>
@@ -118,9 +178,9 @@ I live in downtown Chicago and I just love my city! I spend my free time and wee
 <!-- Footer Section -->
 <footer>© Copyright &amp; Disclaimer 2023 | Chicago, IL</footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-
 <script src="./assets/js/scripts.js"></script>
     
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 </body>
 </html>

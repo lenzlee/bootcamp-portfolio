@@ -40,7 +40,7 @@ Lastly, I borrowed the Chicago Bean Sculpture photo from Google Images.
 
 * My Repo URL: https://github.com/lenzlee/portfolio 
 
-* Application URL: https://lenzlee.github.io/portfolio/
+* Application URL: https://lenzlee.github.io/portfolio
 
 
 ## My Portfolio Page Screenshot:
